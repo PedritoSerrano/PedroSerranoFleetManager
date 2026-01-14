@@ -23,7 +23,7 @@ public class Vehiculo {
 
     private String matricula;
     private String modelo;
-    private int kmActuales;
+    private Integer kmActuales;
     private Estado estado;
 
     @OneToMany(mappedBy = "vehiculo", fetch = FetchType.LAZY)

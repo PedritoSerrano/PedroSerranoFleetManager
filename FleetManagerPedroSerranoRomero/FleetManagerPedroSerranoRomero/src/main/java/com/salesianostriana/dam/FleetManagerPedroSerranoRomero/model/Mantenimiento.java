@@ -22,7 +22,7 @@ public class Mantenimiento {
 
     private String tipo;
     private LocalDateTime fecha;
-    private int kmEnRevision;
+    private Integer kmEnRevision;
 
     @ManyToOne
     @JoinColumn(name = "vehiculo_id")
