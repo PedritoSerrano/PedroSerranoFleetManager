@@ -4,4 +4,7 @@ import com.salesianostriana.dam.FleetManagerPedroSerranoRomero.model.Mantenimien
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface MantenimientoRepository extends JpaRepository<Mantenimiento, Long> {
+
+
+
 }

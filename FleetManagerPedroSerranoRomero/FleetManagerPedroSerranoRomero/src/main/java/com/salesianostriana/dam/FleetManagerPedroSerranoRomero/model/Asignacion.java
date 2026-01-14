@@ -20,7 +20,7 @@ public class Asignacion {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private LocalDateTime fecahaInicio;
+    private LocalDateTime fechaInicio;
     private LocalDateTime fechaFin;
 
     @ManyToOne

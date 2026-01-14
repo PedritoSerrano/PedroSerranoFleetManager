@@ -1,9 +1,11 @@
 package com.salesianostriana.dam.FleetManagerPedroSerranoRomero.dto;
 
+import java.time.LocalDateTime;
+
 public record CreateAsignacionRequest(
         Long IdVehiculo,
         Long IdConductor,
-        String fechaInicio,
-        String fechaFin
+        LocalDateTime fechaInicio,
+        LocalDateTime fechaFin
 ) {
 }
