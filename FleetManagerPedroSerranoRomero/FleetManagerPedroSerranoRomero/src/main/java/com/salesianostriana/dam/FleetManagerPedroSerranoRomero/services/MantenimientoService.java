@@ -38,7 +38,7 @@ public class MantenimientoService {
         mantenimiento.setVehiculo(vehiculo);
 
         mantenimiento.setTaller(tallerRepository.getReferenceById(dto.idTaller()));
-        
+
         mantenimientoRepository.save(mantenimiento);
     }
 }
